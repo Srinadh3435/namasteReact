@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const heading2 = React.createElement("h1",{className:"red"},"This heading is from React")
 const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 const parent = React.createElement(
